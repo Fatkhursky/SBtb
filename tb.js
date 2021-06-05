@@ -10,12 +10,12 @@ const binance = new Binance().options({
   APISECRET: '<********>',
 })
 
-// http
-//   .createServer(function (req, res) {
-//     res.write("I'm alive")
-//     res.end()
-//   })
-//   .listen(8081)
+http
+  .createServer(function (req, res) {
+    res.write("I'm alive")
+    res.end()
+  })
+  .listen(8080)
 
 // duduk tb
 // /target SCBTC rumus1|buy.99|<.5
